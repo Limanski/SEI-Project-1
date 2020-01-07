@@ -53,3 +53,5 @@ const enableListeners = () => grid().forEach(_qEl => _qEl.addEventListener('clic
 const disableListeners = () => grid().forEach(_qEl => _qEl.removeEventListener('click', clickFn));
 
 enableListeners();
+
+//Created using tutorial assistance from Zack Wilson aka PortEXE aka Zackazt
